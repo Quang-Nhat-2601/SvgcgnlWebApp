@@ -1,0 +1,22 @@
+[
+    {
+        "UserName": "Admin1",
+        "KnownAs": "Admin",
+        "Gender": "Female",
+        "Role": "admin",
+        "Created": "2023-08-16",
+        "Avatar": {
+            "Url": "https://randomuser.me/api/portraits/women/54.jpg"
+        }
+    },
+    {
+        "UserName": "Admin2",
+        "KnownAs": "Admin",
+        "Gender": "Male",
+        "Role": "admin",
+        "Created": "2023-08-16",
+        "Avatar": {
+            "Url": "https://randomuser.me/api/portraits/men/90.jpg"
+        }
+    }    
+]
