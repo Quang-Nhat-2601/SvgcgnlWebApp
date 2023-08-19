@@ -1,0 +1,20 @@
+<div class="card" [routerLink]="['detail', slug]">
+  <img src="../../../assets/images/accoustic_hereAndNow.png" alt="hình ảnh" />
+  <div class="card__details pt-3 pb-3">
+    <div>
+      <span class="mgn">{{ date }}</span>
+      <h3>{{ title }}</h3>
+      <p class="mgn">{{ summary }}</p>
+    </div>
+    <div class="card__created d-flex align-items-center">
+      <div class="card__author">
+        <img [src]="authorImage" />
+        <span>{{ authorName }}</span>
+      </div>
+
+      <div class="card__date">
+        Ngày 19/08/2023
+      </div>
+    </div>
+  </div>
+</div>

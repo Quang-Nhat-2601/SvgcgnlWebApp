@@ -1,11 +1,34 @@
+.header-container {
+  background-color: #fff;
+  height: 66px;
+}
+
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
+  height: 60px;
+}
+
+.blog-header-logo-link {
+  align-items: center;
+}
+
+.blog-header-logo-link img {
+  height: 60px;
+  width: 60px;
+  padding: 2px;
+}
+
+.blog-header-logo-link span{
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 60px;
+  padding-left: 2px;
 }
 
 .blog-header-logo:hover {
@@ -13,7 +36,7 @@
 }
 
 .display-4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .card-img-right {
@@ -46,6 +69,7 @@
 
 .nav-link {
   text-transform: capitalize;
+  font-weight: 700;
 }
 
 .navbar .container-fluid{
@@ -55,4 +79,17 @@
 .nav-link {
   font-size: 17px;
   line-height: 2;
+}
+
+.navbar-collapse  form{
+  flex: 1;
+}
+
+.btn-search {
+  background-color: #09ff90;
+}
+
+.btn-search:hover {
+  background-color: #000;
+  color: #09ff90;
 }

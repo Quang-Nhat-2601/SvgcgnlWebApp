@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { PostDetailComponent } from './posts/post-detail/post-detail.component';
 import { AboutComponent } from './about/about.component';
+import { PostCardComponent } from './posts/post-card/post-card.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -19,14 +21,16 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     PostListComponent,
     PostDetailComponent,
-    AboutComponent
+    AboutComponent,
+    PostCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

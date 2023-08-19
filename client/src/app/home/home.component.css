@@ -1,0 +1,140 @@
+slide {
+    background-color: #d5ffe4;
+}
+
+slide img {
+    height: 500px;
+    width: 50%;
+}
+
+.carousel-caption {
+    top: 20%;
+    left: 53%;
+    right: 4%;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    color: #000;
+    text-align: left !important;
+}
+
+.carousel-caption h3 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 40px;
+}
+
+/* stand-out section */
+.standout-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.recent-post {
+    width: 75%;
+    height: 100%;
+    border-right: 1px solid #999;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.recent-post--header {
+    justify-content: space-between;
+}
+
+.recent-post p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ef6262;
+}
+
+.recent-post a {
+    color: #ef6262;
+    text-decoration: underline;
+}
+
+.recent-post--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    margin-top: 36px;
+}
+
+.square-post {
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.square-post img {
+    width: 100%;
+    height: 200px;
+}
+
+.square-post--content {
+    padding-left: 24px;
+    padding-right: 30px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+
+.square-post--content .header {
+    font-weight: 600;
+    font-size: 24px;
+    color: #6ECCAF;
+}
+
+.square-post--content .date {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.square-post--content .content {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.popular-activity {
+    width: 25%;
+}
+
+/* Read more button */
+.readmore {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.style-7 {
+    border:3px solid #000;
+    color:#000;
+    font:12px Montserrat;
+    text-transform:uppercase;  
+    padding:10px;
+    font-weight:600;
+    max-width:250px;
+    display:block;
+    position:relative;
+    -webkit-box-shadow:-10px -10px 0 0 #D66D75, 10px 10px 0 0 #E29587;
+    box-shadow:-10px -10px 0 0 #D66D75, 10px 10px 0 0 #E29587;
+  
+  }
+  .style-7:hover {
+    background:#000;
+    border-color:#000;
+    color:#fff;
+      -webkit-box-shadow:-10px -10px 0 0 #D66D75, 10px 10px 0 0 #E29587;
+    box-shadow:10px -10px 0 0 #D66D75, -10px 10px 0 0 #E29587;
+  }

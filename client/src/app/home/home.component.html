@@ -1,7 +1,91 @@
-<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+<carousel [noPause]="false">
+  <slide>
+    <img
+      src="../../assets/images/gdnl_carousel.jpg"
+      alt="first slide"
+      style="display: block"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h3>Sinh viên Công Giáo Nông Lâm</h3>
+      <p>
+        Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae
+        elit libero, a pharetra augue mollis interdum.Nulla vitae elit libero, a
+        pharetra augue mollis interdum.
+      </p>
+      <div class="readmore">
+        <a href="#" class="style-7">Read More</a>
+      </div>
+    </div>
+  </slide>
+  <!-- <slide>
+    <img
+      src="../../assets/images/image2.jpg"
+      alt="second slide"
+      style="display: block"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </slide>
+  <slide>
+    <img
+      src="../../assets/images/image3.jpg"
+      alt="third slide"
+      style="display: block"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </slide> -->
+</carousel>
+
+<div class="standout-section">
+  <div class="recent-post">
+    <div class="recent-post--header d-flex">
+      <p>Bài viết nổi bật</p>
+      <a href="#">Xem tất cả</a>
+    </div>
+
+    <div class="recent-post--container">
+      <div class="square-post d-flex">
+        <img src="../../assets/images/accoustic_hereAndNow.png" alt="" />
+        <div class="square-post--content">
+          <p class="date pb-3">20/08/2023</p>
+          <p class="header pb-4">Tiêu đề bài viết</p>
+          <p class="content pb-4">
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur vel
+            scelerisque nisl consectetur
+          </p>
+        </div>
+      </div>
+
+      <div class="square-post d-flex">
+        <img src="../../assets/images/accoustic_hereAndNow.png" alt="" />
+        <div class="square-post--content">
+          <p class="date pb-3">20/08/2023</p>
+          <p class="header pb-4">Tiêu đề bài viết</p>
+          <p class="content pb-4">
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur vel
+            scelerisque nisl consectetur
+          </p>
+        </div>
+      </div>
+
+      <div class="square-post d-flex">
+        <img src="../../assets/images/accoustic_hereAndNow.png" alt="" />
+        <div class="square-post--content">
+          <p class="date pb-3">20/08/2023</p>
+          <p class="header pb-4">Tiêu đề bài viết</p>
+          <p class="content pb-4">
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur vel
+            scelerisque nisl consectetur
+          </p>
+        </div>
+      </div>
     </div>
   </div>
+
+  <div class="popular-activity"></div>
+</div>
